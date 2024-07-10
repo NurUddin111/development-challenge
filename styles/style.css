@@ -196,10 +196,10 @@
   gap: 15px;
 }
 
-.all-targets{
-    padding: 60px;
-    display: flex;
-    gap: 30px;
+.all-targets {
+  padding: 60px;
+  display: flex;
+  gap: 30px;
 }
 
 .target-title {
@@ -216,7 +216,7 @@
 }
 
 .target {
-    width: 400px;
+  width: 400px;
   height: auto;
   border-radius: 16px;
   padding: 20px;
@@ -250,3 +250,51 @@
   margin-bottom: 20px;
 }
 
+/* The Following CSS styles are for I need Support Section */
+
+.support {
+  background-image: url(../assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  padding-top: 80px;
+  margin: 0px 40px;
+  border-radius: 8px;
+
+}
+
+.support-title {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+
+.support-info {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.feedback-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.feedback{
+    width: 350px;
+    padding: 14px;
+    border-radius: 8px;
+    border: transparent;
+}
+
+#btn-submit{
+    border: transparent;
+}
