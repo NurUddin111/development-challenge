@@ -145,7 +145,10 @@
 }
 
 /* The Following CSS styles are for My Inspiration Section */
+
 .my-inspiration-sec-details {
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .my-inspiration-sec-title {
@@ -162,12 +165,11 @@
   font-weight: 400;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 50px;
 }
 
-.video-section{
-    display: flex;
-    justify-content: center;
+.video-section {
+  display: flex;
+  justify-content: center;
 }
 
 .inspirational-video {
@@ -179,3 +181,72 @@
   border: 1px solid rgba(13, 19, 33, 0.2);
   border-radius: 16px;
 }
+
+/* The Following CSS Styles are for My Current Target Section */
+
+.my-current-target {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.my-target {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.all-targets{
+    padding: 60px;
+    display: flex;
+    gap: 30px;
+}
+
+.target-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.target-info {
+  color: rgb(82, 91, 112);
+  font-size: 16px;
+  text-align: center;
+}
+
+.target {
+    width: 400px;
+  height: auto;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+#target-1 {
+  background-color: rgba(255, 76, 30, 0.05);
+}
+
+#target-2 {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+
+#target-3 {
+  background-color: rgba(255, 223, 0, 0.05);
+}
+
+.course-title {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.course-info {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
