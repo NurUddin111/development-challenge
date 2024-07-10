@@ -4,6 +4,8 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+/* The Following CSS styles are for Nav */
+
 .nav {
   margin-top: 20px;
   display: flex;
@@ -24,6 +26,8 @@
   font-size: 20px;
   font-weight: 500;
 }
+
+/* The Following CSS styles are for Banner Section */
 
 .banner {
   background-image: url(../assets/Hero-bg.png);
@@ -55,4 +59,87 @@
   font-size: 20px;
   font-weight: 600;
   text-align: center;
+}
+
+/* The Following CSS styles are for Why Web Development Section */
+
+.why-web-dev {
+  width: 1100px;
+  height: auto;
+  margin-left: 50px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 97px;
+  border-radius: 16px;
+  background-color: rgba(13, 19, 33, 0.02);
+}
+
+.why-web-dev-sec-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+}
+
+.why-web-dev-sec-info {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.point {
+  width: auto;
+  height: auto;
+  display: flex;
+  gap: 50px;
+  padding: 0px 40px;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.point-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.point-head {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+
+.point-info {
+  color: rgb(110, 117, 134);
+  font-size: 14px;
+  text-align: left;
+}
+
+.btn-learn {
+  width: 100px;
+  padding: 5px;
+}
+
+#point2 {
+  flex-direction: row-reverse;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
 }
