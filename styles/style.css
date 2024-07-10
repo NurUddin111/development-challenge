@@ -143,3 +143,39 @@
     rgba(255, 255, 255, 0) 100%
   );
 }
+
+/* The Following CSS styles are for My Inspiration Section */
+.my-inspiration-sec-details {
+}
+
+.my-inspiration-sec-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+}
+
+.my-inspiration-sec-info {
+  color: rgb(83, 87, 99);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.video-section{
+    display: flex;
+    justify-content: center;
+}
+
+.inspirational-video {
+  width: 1140px;
+  height: 614px;
+  padding: 32px;
+  margin: 48px 0px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
