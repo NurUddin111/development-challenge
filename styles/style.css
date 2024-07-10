@@ -261,7 +261,6 @@
   padding-top: 80px;
   margin: 0px 40px;
   border-radius: 8px;
-
 }
 
 .support-title {
@@ -281,20 +280,45 @@
   margin-bottom: 20px;
 }
 
-.feedback-box{
+.feedback-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.feedback {
+  width: 350px;
+  padding: 14px;
+  border-radius: 8px;
+  border: transparent;
+}
+
+#btn-submit {
+  border: transparent;
+}
+
+/* The Following CSS Styles are for Footer Section */
+
+.footer {
+  border-radius: 16px;
+  background-color: wheat;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px;
+  margin: 40px 40px;
+}
+
+.footer-title {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+}
+
+.social-media{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    gap: 30px;
 }
 
-.feedback{
-    width: 350px;
-    padding: 14px;
-    border-radius: 8px;
-    border: transparent;
-}
-
-#btn-submit{
-    border: transparent;
-}
